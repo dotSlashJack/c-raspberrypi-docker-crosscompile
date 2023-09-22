@@ -4,7 +4,7 @@ This project contains basic code to compile a c project for raspberry pi (headle
 
 It was designed for creating executables on a raspberry pi that can be used for testing components on a propulsion stand. This repo only contains basic test c code and the Dockerfile, not the prop code.
 
-## #Compile the docker image
+### Compile the docker image
 
 ```
 cd pi-docker-image
