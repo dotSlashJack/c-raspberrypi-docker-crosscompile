@@ -1,0 +1,6 @@
+tests/pi_executable
+.vscode
+.vscode/*
+*.o
+tests/output_executable
+tests/output_executable/*
