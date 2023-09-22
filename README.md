@@ -6,21 +6,29 @@ It was designed for creating executables on a raspberry pi that can be used for 
 
 ## #Compile the docker image
 
-``cd pi-docker-image``
+```
+cd pi-docker-image
+```
 
-``sh compile-docker.sh``
+```
+sh compile-docker.sh
+```
 
-### Cross compile the c files inside of test folder
+### Compile the c executable
 
-Make sure the docker image compiled and returned to the parent (rpi-prop-compiler) folder
+Make sure you've returned to the parent (rpi-prop-crosscompiler) folder. Then:
 
-``123``
-
-``456``
+```
+sh compile-c-project.sh
+```
 
 ### Everything at once
 
-``sh cross-compile.sh``
+Compiles docker image and the c executable
+
+```
+sh cross-compile.sh`
+```
 
 ---
 
