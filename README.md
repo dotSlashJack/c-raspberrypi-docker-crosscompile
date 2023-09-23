@@ -27,7 +27,7 @@ sh compile-c-project.sh
 Compiles docker image and the c executable
 
 ```
-sh cross-compile.sh`
+sh cross-compile.sh
 ```
 
 ---
